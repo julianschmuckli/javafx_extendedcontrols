@@ -43,7 +43,7 @@ tabManager.updateLast(new RowExample("Hello World"));
 
 ## CheckBoxManager
 
-When you have multiple checkboxed and you want to control all of them with simple commands, then you should use this feature. To initialize the checkboxes, create an instance of CheckBoxManager and put all your checkboxes in the constructor. You can put as many checkboxes you want.
+When you have multiple checkboxes and you want to control all of them with simple commands, then you should use this feature. To initialize the checkboxes, create an instance of CheckBoxManager and put all your checkboxes in the constructor. You can put as many checkboxes you want.
 
 ```java
 checkboxManager = new CheckBoxManager(cheOption1, cheOption2, ...);
@@ -61,3 +61,5 @@ You can also set a status to one or more checkboxes:
 ```java
 checkboxManager.setSelected(true, 0, 1, ...);
 ```
+
+The 1s and 0s are the indexes of your checkbox list, which you have given via the constructor.
